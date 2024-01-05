@@ -33,7 +33,7 @@ limitations under the License.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
-> Create an array containing pseudorandom numbers drawn from an [geometric][@stdlib/random/base/geometric] distribution.
+> Create an array containing pseudorandom numbers drawn from a [geometric][@stdlib/random/base/geometric] distribution.
 
 <section class="installation">
 
@@ -63,7 +63,7 @@ var geometric = require( '@stdlib/random-array-geometric' );
 
 #### geometric( len, p\[, options] )
 
-Returns an array containing pseudorandom numbers drawn from an [geometric][@stdlib/random/base/geometric] distribution.
+Returns an array containing pseudorandom numbers drawn from a [geometric][@stdlib/random/base/geometric] distribution.
 
 ```javascript
 var out = geometric( 10, 0.01 );
@@ -78,7 +78,7 @@ The function has the following parameters:
 
 The function accepts the following `options`:
 
--   **dtype**: output array data type. Must be a [real-valued floating-point data type][@stdlib/array/typed-real-float-dtypes] or "generic". Default: `'float64'`.
+-   **dtype**: output array data type. Must be a [real-valued data type][@stdlib/array/typed-real-dtypes] or "generic". Default: `'float64'`.
 
 By default, the function returns a [`Float64Array`][@stdlib/array/float64]. To return an array having a different data type, set the `dtype` option.
 
@@ -93,7 +93,7 @@ var out = geometric( 10, 0.01, opts );
 
 #### geometric.factory( \[p, ]\[options] )
 
-Returns a function for creating arrays containing pseudorandom numbers drawn from an [geometric][@stdlib/random/base/geometric] distribution.
+Returns a function for creating arrays containing pseudorandom numbers drawn from a [geometric][@stdlib/random/base/geometric] distribution.
 
 ```javascript
 var random = geometric.factory();
@@ -135,7 +135,7 @@ The function accepts the following `options`:
 -   **seed**: pseudorandom number generator seed.
 -   **state**: a [`Uint32Array`][@stdlib/array/uint32] containing pseudorandom number generator state. If provided, the function ignores the `seed` option.
 -   **copy**: `boolean` indicating whether to copy a provided pseudorandom number generator state. Setting this option to `false` allows sharing state between two or more pseudorandom number generators. Setting this option to `true` ensures that an underlying generator has exclusive control over its internal state. Default: `true`.
--   **dtype**: default output array data type. Must be a [real-valued floating-point data type][@stdlib/array/typed-real-float-dtypes] or "generic". Default: `'float64'`.
+-   **dtype**: default output array data type. Must be a [real-valued data type][@stdlib/array/typed-real-dtypes] or "generic". Default: `'float64'`.
 
 To use a custom PRNG as the underlying source of uniformly distributed pseudorandom numbers, set the `prng` option.
 
@@ -165,7 +165,7 @@ var out = random( 10, opts );
 
 The returned function accepts the following `options`:
 
--   **dtype**: output array data type. Must be a [real-valued floating-point data type][@stdlib/array/typed-real-float-dtypes] or "generic". This overrides the default output array data type.
+-   **dtype**: output array data type. Must be a [real-valued data type][@stdlib/array/typed-real-dtypes] or "generic". This overrides the default output array data type.
 
 To override the default output array data type, set the `dtype` option.
 
@@ -436,7 +436,7 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 
 [@stdlib/random/base/geometric]: https://github.com/stdlib-js/random-base-geometric
 
-[@stdlib/array/typed-real-float-dtypes]: https://github.com/stdlib-js/array-typed-real-float-dtypes
+[@stdlib/array/typed-real-dtypes]: https://github.com/stdlib-js/array-typed-real-dtypes
 
 [@stdlib/array/uint32]: https://github.com/stdlib-js/array-uint32
 
