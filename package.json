@@ -90,7 +90,7 @@
     "random",
     "rand",
     "geometric",
-    "exponential",
+    "bernoulli",
     "discrete",
     "generator",
     "seed",
