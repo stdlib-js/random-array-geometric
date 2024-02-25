@@ -435,8 +435,8 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/random-array-geometric.svg
 [npm-url]: https://npmjs.org/package/@stdlib/random-array-geometric
 
-[test-image]: https://github.com/stdlib-js/random-array-geometric/actions/workflows/test.yml/badge.svg?branch=v0.2.0
-[test-url]: https://github.com/stdlib-js/random-array-geometric/actions/workflows/test.yml?query=branch:v0.2.0
+[test-image]: https://github.com/stdlib-js/random-array-geometric/actions/workflows/test.yml/badge.svg?branch=v0.2.1
+[test-url]: https://github.com/stdlib-js/random-array-geometric/actions/workflows/test.yml?query=branch:v0.2.1
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/random-array-geometric/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/random-array-geometric?branch=main
